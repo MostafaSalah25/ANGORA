@@ -1,0 +1,269 @@
+/* nav  */
+
+nav a{
+    transition: 1s !important ;
+}
+nav a:hover{
+    color: crimson!important;
+}
+nav i:hover{
+    color: crimson !important;
+}
+
+/* header  */
+
+.setting{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    z-index: 999;
+}
+
+header .layer{
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 70%; 
+    opacity: 0;
+
+    animation: moving 4s 2s ;
+}
+
+@keyframes moving
+{
+    from{left:70% ; opacity: 0; } 
+    to{left:35% ; opacity: 1;  } 
+}
+
+/* button  */
+
+ .carousel-control-prev ,.carousel-control-next {
+    position: absolute;
+    top: 55%;
+
+    border: 1px solid white;
+    border-left: 0;
+    
+    opacity: 1;
+    background-color: transparent;
+    width: 3%;
+    height: 8%;
+    transition: 1s;
+}
+.carousel-control-next{
+    top: 63%;
+    left: 0;
+}
+
+.carousel-control-prev:hover , .carousel-control-next:hover{
+    background-color:mediumslateblue;
+}
+
+
+/* about  */
+
+.about .title h2{
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: gainsboro;
+}
+.about .title h3{
+    font-size: 2.5rem;
+}
+
+.about  .line{
+    background-color: red;
+    width: 80px;
+    height: 1px ;
+    margin: 15px auto;
+    transition: 1s;
+}
+.about .item:hover .line{
+    width: 150px;
+}
+
+.about .percent{
+    height: 8px;
+}
+
+/* team  */
+
+.team .title h2{
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: gainsboro;
+
+}
+.team .title h3{
+    font-size: 2.5rem;
+}
+
+.team .line{
+    background-color: red;
+    width: 80px;
+    height: 1px ;
+    margin: 15px auto;
+    transition: 1s;
+}
+.team .item:hover .line{
+    width: 150px;
+}
+
+
+.team .layer{
+    background-color: indianred;
+    transition: .5s;
+}
+
+.team .item img{
+    transition: .5s;
+}
+.team .item h5{
+    transition: .5s;
+}
+
+.team .item:hover .layer{
+    opacity: .7 !important ;
+}
+
+.team .item:hover h5{
+    color: red;
+}
+.team .item:hover img{
+    transform: scale(1.1,1.1);
+}
+
+
+/* services */
+.services .title h2{
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: gainsboro;
+
+}
+.services .title h3{
+    font-size: 2.5rem;
+}
+.services .line{
+    background-color: red;
+    width: 80px;
+    height: 1px ;
+    margin: 15px auto;
+    transition: 1s;
+}
+.services .item:hover .line{
+    width: 150px;
+}
+
+.services .item:hover h4{
+    color: red;
+}
+
+
+
+/* clients  */
+.clients .title h2{
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: gainsboro;
+
+}
+.clients .title h3{
+    font-size: 2.5rem;
+}
+.clients .line{
+    background-color: red;
+    width: 80px;
+    height: 1px ;
+    margin: 15px auto;
+    transition: 1s;
+}
+.clients .item:hover .line{
+    width: 150px;
+}
+
+.clients .child{
+    width: 20%;
+}
+
+
+/* get in touch */
+
+.get .title h2{
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: gainsboro;
+
+}
+.get .title h3{
+    font-size: 2.5rem;
+}
+.get .line{
+    background-color: red;
+    width: 80px;
+    height: 1px ;
+    margin: 15px auto;
+    transition: 1s;
+}
+.get .item:hover .line{
+    width: 150px;
+}
+
+.get .item:hover h4{
+    color: red;
+}
+.get input{
+    border: 2px solid gainsboro;
+}
+.get textarea{
+    border: 2px solid gainsboro;
+}
+::placeholder{
+    color: gray;
+}
+
+
+/* contact  */
+
+.contact .img{
+    width: fit-content;
+}
+
+.contact h4{
+    color: white;
+}
+
+.contact a{
+    color: gray;
+    transition: 1s;
+}
+.contact a:hover{
+    color: crimson;
+}
+
+.contact .item a:hover{
+    color: crimson !important;
+    border-color: crimson !important;
+}
+.contact .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: crimson;
+    opacity: .5;
+    transition: 1s;
+}
+.contact .icon:hover{
+    opacity: .9;
+}
+
+/* footer*/
+footer{
+    background-color: black;
+}
+footer i:hover{
+    color: crimson !important;
+}
+footer a:hover{
+    color: crimson !important;
+}
